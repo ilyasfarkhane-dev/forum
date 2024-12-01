@@ -12,7 +12,7 @@ export default function Home() {
     e.preventDefault();
     setLoading(true);
     try {
-      const { data } = await axios.post('http://localhost:5000/api/submit', { name, email }, {
+      const { data } = await axios.post('https://forum-back-8cvh.onrender.com/submit', { name, email }, {
         responseType: 'arraybuffer', // Expect binary data (PDF)
       });
       // Convert the response to a Blob and trigger the download
