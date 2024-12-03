@@ -60,7 +60,7 @@ export default function Home() {
       </div>
 
       {successMessage ? (
-        <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md">
+        <div className="flex flex-col items-center p-24">
           <img
             src="success.png"
             alt="Success Icon"
